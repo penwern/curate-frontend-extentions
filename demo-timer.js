@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     countdownElement.style.zIndex = "1000";
     countdownElement.style.color = "rgb(255, 255, 255)";
     countdownElement.style.boxShadow = "rgba(0, 0, 0, 0.15) 0px 10px 35px, rgba(0, 0, 0, 0.12) 0px 5px 10px";
+    countdownElement.style.pointerEvents = "none";
     countdownElement.innerHTML = `
         This demo will reset in:<br>
         <span id="countdown-timer"></span>
